@@ -1,4 +1,29 @@
 # elec5305-project-500162576
 
-Speech communication is often affected by white noise especially from the environment, which will reduce speech quality and intelligibility, particularly in noisy environments such as streets, public transport, and crowded indoor spaces [1]. Speech enhancement techniques aim to reduce those noise while preserving the important components of the speech signal [1], [2].
-The aim of this project is to develop a speech enhancement system using Short-Time Fourier Transform (STFT) and Wiener filtering. The noisy speech signal will first be transformed into the time-frequency domain using STFT, allowing the spectral characteristics of speech and noise to be analysed over short time frames [2]. Wiener filtering will then be applied in the STFT domain to reduce noise components while preserving the desired speech signal [1], [2]. Finally, the enhanced speech signal will be reconstructed using inverse STFT. The performance of the proposed system will be evaluated by comparing the noisy and enhanced speech signals using Signal-to-Noise Ratio (SNR).
+
+## Speech Enhancement Using Wiener Filtering and Short-Time Fourier Transform (STFT)
+
+This project aims to develop a speech enhancement system using Short-Time Fourier Transform (STFT) and Wiener filtering.
+
+The system will use STFT to transform noisy speech signals into the time-frequency domain. Wiener filtering will then be applied to reduce background noise, and inverse STFT will be used to reconstruct the enhanced speech signal.
+
+## Tools
+- MATLAB
+
+## Signal Processing Techniques
+- Short-Time Fourier Transform (STFT)
+- Wiener Filtering
+- Inverse Short-Time Fourier Transform (ISTFT)
+- Signal-to-Noise Ratio (SNR)
+
+## Dataset
+- Mini LibriSpeech / LibriSpeech
+
+## Expected Outcomes
+- MATLAB-based speech enhancement system
+- Enhanced speech signals
+- SNR performance evaluation
+- Waveform and spectrogram comparisons
+
+## Course
+ELEC5305
