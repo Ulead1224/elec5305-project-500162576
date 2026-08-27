@@ -28,6 +28,4 @@ The system will use STFT to transform noisy speech signals into the time-frequen
 ## Course
 ELEC5305
 
-## Project Proposal
 
-[View ELEC5305 Project Proposal](./ELEC5305%20project%20proposal.pdf)
