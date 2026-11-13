@@ -34,7 +34,7 @@ The main research question is whether better noise reduction always leads to bet
 - SpeechBrain
 - PyTorch
 
-##This project uses two publicly available datasets:
+## Datasets
 
 1. LibriSpeech (Speech Dataset)
 
