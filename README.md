@@ -34,6 +34,20 @@ The main research question is whether better noise reduction always leads to bet
 - SpeechBrain
 - PyTorch
 
+## Project Files
+
+| File | Description |
+|---|---|
+| `experiment1_wiener_batch.m` | Performs noise mixing, Wiener filtering, audio reconstruction, and SNR evaluation. |
+| `experiment2_ecapa.py` | Extracts ECAPA-TDNN speaker embeddings and calculates embedding drift and recovery. |
+| `filterbank_analysis.py` | Calculates Mel-filterbank distortion for clean, noisy, and enhanced speech. |
+| `ecapa_batch_evaluation.py` | Evaluates speaker verification performance using EER. |
+| `SNR_results.csv` | SNR improvement results. |
+| `ECAPA_embedding_results.csv` |  speaker embedding analysis results. |
+| `ECAPA_embedding_summary.csv` | Summarises embedding drift and recovery across noise conditions. |
+| `Filterbank_results.csv` | Mel-filterbank distortion results. |
+| `ECAPA_summary.csv` |  speaker verification EER results. |
+
 ## Experimental Results
 
 | Evaluation Metric | Result |
@@ -54,7 +68,10 @@ This finding is relevant to practical applications such as voice authentication 
 
 ## Course Information
 
-ELEC5305— Speech and Audio Processing 
+**Course:** ELEC5305 — Speech and Audio Processing
 
-## Git Hub Link
+**University:** The University of Sydney
+
+## GitHub Link
+
 https://github.com/Ulead1224/elec5305-project-500162576
