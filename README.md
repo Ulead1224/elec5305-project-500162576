@@ -70,8 +70,6 @@ This finding is relevant to practical applications such as voice authentication 
 
 **Course:** ELEC5305 — Speech and Audio Processing
 
-**University:** The University of Sydney
-
 ## GitHub Link
 
 https://github.com/Ulead1224/elec5305-project-500162576
