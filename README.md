@@ -34,6 +34,61 @@ The main research question is whether better noise reduction always leads to bet
 - SpeechBrain
 - PyTorch
 
+##This project uses two publicly available datasets:
+
+1. LibriSpeech (Speech Dataset)
+
+Dataset: LibriSpeech dev-clean
+
+Number of speakers: 10
+
+Speaker IDs: 1272, 1462, 1673, 174, 1919, 251, 422, 652, 777, 84
+
+Each speaker has separate enrollment and verification recordings.
+
+Sampling rate: 16 kHz
+
+Download: https://www.openslr.org/12
+
+2. DEMAND (Noise Dataset)
+
+Dataset: Diverse Environments Multi-channel Acoustic Noise Database (DEMAND)
+
+Selected noise types: DKITCHEN, TBUS, PSTATION
+
+Input SNR levels: −5, 0, +5, +10 dB
+
+Download: https://zenodo.org/records/1227121
+
+Dataset Preparation
+
+The speech files should be organised as follows:
+
+dev-clean/
+└── LibriSpeech/
+    └── selected_speech/
+        ├── 1272/
+        │   ├── enrollment.flac
+        │   └── verification.flac
+        ├── 1462/
+        ├── 1673/
+        ├── 174/
+        ├── 1919/
+        ├── 251/
+        ├── 422/
+        ├── 652/
+        ├── 777/
+        └── 84/
+
+Demand/
+├── DKITCHEN/
+│   └── ch01.wav
+├── TBUS/
+│   └── ch01.wav
+└── PSTATION/
+    └── ch01.wav
+
+The original datasets are not included in this GitHub repository due to their size. Users should download the datasets and prepare the selected recordings before running the experiments.
 ## Project Files
 
 | File | Description |
